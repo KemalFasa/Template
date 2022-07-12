@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{0340665B-CBD5-4B16-BF9F-486C18D82999}|Default">
+﻿<Properties StartupConfiguration="{0340665B-CBD5-4B16-BF9F-486C18D82999}|Default" GitUserInfo="UsingMD">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -8,9 +8,7 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="AspnetrunMicroservices" expanded="True" selected="True">
-            <Node name="Catalog.Api" expanded="True" />
-          </Node>
+          <Node name="AspnetrunMicroservices" expanded="True" />
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
