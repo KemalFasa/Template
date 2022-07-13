@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/3meQNXa9+jLDXPM900lqFpU8utLuSwh0zLpMBzROKjpnIAUFX9PUNvKu7HndOu3qY1RtkTuU5g8DTqRopoVzA==",
+  "dgSpecHash": "wa/rHBz4Hs1QVJrJSToaEPGT2uT7aOzHs02GucCHFsXcfogbKlX5en9wxkGdt1pk24/s7Ghr+R6l/jUxvRv1Jg==",
   "success": true,
   "projectFilePath": "/Users/apple/Documents/c#/AspnetrunMicroservices/run-aspnetcore-microservices/Src/Services/Catalog/Catalog.Api/Catalog.Api.csproj",
   "expectedPackageFiles": [

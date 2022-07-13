@@ -1,4 +1,4 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{F794E41F-DB6C-43B6-BD30-2A2BDACBA22D}|Default">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -6,11 +6,6 @@
   <MonoDevelop.Ide.ItemProperties.Catalog.Api PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="run-aspnetcore-microservices" expanded="True" selected="True" />
-        </State>
-      </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
       </Pad>
