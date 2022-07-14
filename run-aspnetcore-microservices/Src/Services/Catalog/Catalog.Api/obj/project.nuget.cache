@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "K3vxc0Abi+z117TbzZYC+my2Mj7Hl63DmcwktyRURFNeWPIjH4jqIw2SSLZvQc9vqG2iz3AgX8GYoALRzcBleQ==",
+  "dgSpecHash": "X7w2x0rWFzcO13na5luPV1gX4lvz5EvrydtrzpQ47cPVLP9IwOUw6fHPudAwYWmj8VEp1n3kX2SvGmCUTsNabw==",
   "success": true,
   "projectFilePath": "D:\\Biofarma\\udemy\\aspnetcore-microservices\\run-aspnetcore-microservices\\Src\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\kemal.fasa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\kemal.fasa\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\kemal.fasa\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\kemal.fasa\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\kemal.fasa\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\kemal.fasa\\.nuget\\packages\\mongodb.bson\\2.16.1\\mongodb.bson.2.16.1.nupkg.sha512",
     "C:\\Users\\kemal.fasa\\.nuget\\packages\\mongodb.driver\\2.16.1\\mongodb.driver.2.16.1.nupkg.sha512",
