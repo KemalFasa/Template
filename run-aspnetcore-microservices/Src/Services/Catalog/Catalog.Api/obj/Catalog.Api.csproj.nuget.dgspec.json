@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Biofarma\\udemy\\aspnetcore-microservices\\run-aspnetcore-microservices\\Src\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {}
+    "D:\\Biofarma\\udemy\\microservices\\run-aspnetcore-microservices\\run-aspnetcore-microservices\\Src\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {}
   },
   "projects": {
-    "D:\\Biofarma\\udemy\\aspnetcore-microservices\\run-aspnetcore-microservices\\Src\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {
+    "D:\\Biofarma\\udemy\\microservices\\run-aspnetcore-microservices\\run-aspnetcore-microservices\\Src\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Biofarma\\udemy\\aspnetcore-microservices\\run-aspnetcore-microservices\\Src\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+        "projectUniqueName": "D:\\Biofarma\\udemy\\microservices\\run-aspnetcore-microservices\\run-aspnetcore-microservices\\Src\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
         "projectName": "Catalog.Api",
-        "projectPath": "D:\\Biofarma\\udemy\\aspnetcore-microservices\\run-aspnetcore-microservices\\Src\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+        "projectPath": "D:\\Biofarma\\udemy\\microservices\\run-aspnetcore-microservices\\run-aspnetcore-microservices\\Src\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
         "packagesPath": "C:\\Users\\kemal.fasa\\.nuget\\packages\\",
-        "outputPath": "D:\\Biofarma\\udemy\\aspnetcore-microservices\\run-aspnetcore-microservices\\Src\\Services\\Catalog\\Catalog.Api\\obj\\",
+        "outputPath": "D:\\Biofarma\\udemy\\microservices\\run-aspnetcore-microservices\\run-aspnetcore-microservices\\Src\\Services\\Catalog\\Catalog.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,14 +21,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net60"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net60": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -39,7 +40,8 @@
         }
       },
       "frameworks": {
-        "net60": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
@@ -54,12 +56,25 @@
               "version": "[6.2.3, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.110\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win7-x86": {
-          "#import": []
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

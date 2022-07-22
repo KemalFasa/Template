@@ -1,7 +1,6 @@
-using Basket.Api.Entities;
-using Basket.Api.Repositories.Interfaces;
-using Basket.Api.Repositories; 
-
+using Discount.Api.Repositories.Interfaces;
+using Discount.Api.Repositories;
+using Discount.Api.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,21 +10,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-builder.Services.AddStackExchangeRedisCache(options =>
-{
-    options.Configuration =  builder.Configuration.GetValue<string>("cacheSettings:ConnectionString");  
-    // builder.Configuration["cacheSettings"];
-});
-
-
-// builder.Services.AddStackExchangeRedisCache(options =>
-// {
-//     options.Configuration =  "Localhost:6379";
-// });
-
-builder.Services.AddScoped<IBasketRepository, BasketRepository>();
-
+builder.Services.AddScoped<IDiscountRepository, DiscountRepository>();
 
 var app = builder.Build();
 
@@ -36,10 +21,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
+
+
 
 app.Run();
