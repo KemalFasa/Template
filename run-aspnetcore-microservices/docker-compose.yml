@@ -29,6 +29,12 @@ services:
       context: .
       dockerfile: Src/Services/basket/Basket.Api/Dockerfile
 
+  discount.api:
+    image: ${DOCKER_REGISTRY-}discountapi
+    build:
+      context: .
+      dockerfile: Src/Services/Discount/Discount.Api/Dockerfile
+
 volumes:
   mongo_data:
   portainer_data:
