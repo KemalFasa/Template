@@ -15,12 +15,34 @@ public class  DiscountService : DiscountProtoService.DiscountProtoServiceBase
 
    
  public DiscountService(IDiscountRepository repository, IMapper mapper, ILogger<DiscountService> logger)
-//   public DiscountService(IDiscountRepository repository, ILogger<DiscountService> logger)
+//   public DiscountService(IDiscountRepository repository,ILogger<DiscountService> logger)
         {
             _repository = repository ?? throw new ArgumentNullException(nameof(repository));
              _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
+//    public override Task<GetTestDiscountRequest> GetTestDiscount(GetTestDiscountRequest request, ServerCallContext context)
+//   {
+//     _logger.LogInformation("Received request to: GetDiscount");
+//     var response = new GetTestDiscountResponse();
+//     response.TestDiscount.Add(new TestDiscount
+//     {
+//         Amount= request.ProductName
+//     });
+    
+//     return Task.FromResult(response);
+//   }
+//  public override Task<GetTestDiscountResponse> GetTestDiscount(GetTestDiscountRequest request, ServerCallContext context)
+//   {
+//     _logger.LogInformation("Received request to: GetDiscount");
+//     var response = new GetTestDiscountResponse();
+//     response.TestDiscount.Add(new TestDiscount
+//     {
+//         Amount= request.ProductName
+//     });
+    
+//     return Task.FromResult(response);
+//   }
 
         public override async Task<CouponModel> GetDiscount(GetDiscountRequest request, ServerCallContext context)
         {

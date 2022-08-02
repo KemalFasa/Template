@@ -42,8 +42,8 @@ public class BasketController : ControllerBase
         {
            foreach (var item in basket.Items)
            {
-                // item.ProductName
-                var coupon = await _discountGrpcService.GetDiscount(item.ProductName);
+            // item.ProductName
+            var coupon = await _discountGrpcService.GetDiscount(item.ProductName);
                 item.Price -= coupon.Amount;
            }
 
